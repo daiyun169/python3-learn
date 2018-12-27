@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0af5448-e4f9-4d43-b8b4-8cfee05b6236" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/learn2/s1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learn2/wy163.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learn2/zhihu/config.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learn2/zhihu/zhihu.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data-init/zscq.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/learn1/mysql.py" afterPath="$PROJECT_DIR$/data-init/hnh2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,49 +18,41 @@
     <SUITE FILE_PATH="coverage/python3_spider$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1543564820403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn2" />
     <SUITE FILE_PATH="coverage/python3_spider$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1543568110452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn2/zhihu" />
     <SUITE FILE_PATH="coverage/python3_spider$163.coverage" NAME="163 Coverage Results" MODIFIED="1543547237394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn2" />
+    <SUITE FILE_PATH="coverage/python3_spider$zscq.coverage" NAME="zscq Coverage Results" MODIFIED="1545804662298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-init" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="wy163.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn2/wy163.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="hnh2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-init/hnh2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="92">
+              <caret line="120" column="4" lean-forward="false" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="62" />
               <folding>
-                <element signature="e#48#57#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1543479590599" expanded="true" signature="274:298" ph="select * fro... brand_user" />
+                <marker date="1543479590599" expanded="true" signature="536:592" ph="update brand_user... " />
+                <marker date="1543479590599" expanded="true" signature="860:926" ph="select id, b... brand_area" />
+                <marker date="1543479590599" expanded="true" signature="1570:1760" ph="INSERT INTO `rcm_db`.`brand_user`... " />
+                <marker date="1543479590599" expanded="true" signature="2032:2186" ph="INSERT INTO `rcm_db`.`brand_user_index`... " />
+                <marker date="1543479590599" expanded="true" signature="3061:3111" ph="select brand... brand_type" />
+                <marker date="1543479590599" expanded="true" signature="4479:4787" ph="INSERT INTO `rcm_db`.`brand_area`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn2/s1.py">
+      <file leaf-file-name="zscq.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-init/zscq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhihu.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learn2/zhihu/zhihu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="475">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#48#63#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1545803561202" expanded="true" signature="772:1315" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
+                <marker date="1545803561202" expanded="true" signature="772:1317" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
+                <marker date="1545803561202" expanded="true" signature="772:1336" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
+                <marker date="1545803561202" expanded="true" signature="772:1942" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decoder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/decoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -69,18 +60,8 @@
       <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn2/zhihu/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="298">
+              <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,6 +79,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>encoding</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,6 +93,7 @@
         <option value="$PROJECT_DIR$/learn2/wy163.py" />
         <option value="$PROJECT_DIR$/learn2/zhihu/config.ini" />
         <option value="$PROJECT_DIR$/learn2/zhihu/zhihu.py" />
+        <option value="$PROJECT_DIR$/data-init/zscq.py" />
       </list>
     </option>
   </component>
@@ -143,8 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,24 +136,33 @@
             <path>
               <item name="python3-spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3-spider" type="462c0819:PsiDirectoryNode" />
-              <item name="learn2" type="462c0819:PsiDirectoryNode" />
+              <item name="data-init" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python3-spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3-spider" type="462c0819:PsiDirectoryNode" />
-              <item name="learn2" type="462c0819:PsiDirectoryNode" />
-              <item name="zhihu" type="462c0819:PsiDirectoryNode" />
+              <item name="learn1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\spider\python3-spider\data-init" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\spider\python3-spider\data-init" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zhihu">
+  <component name="RunManager" selected="Python.zscq">
     <configuration name="163" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,18 +253,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <configuration name="zscq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-init" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python3-spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-init/zscq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.s1" />
       <item index="1" class="java.lang.String" itemvalue="Python.163" />
       <item index="2" class="java.lang.String" itemvalue="Python.wy163" />
       <item index="3" class="java.lang.String" itemvalue="Python.zhihu" />
+      <item index="4" class="java.lang.String" itemvalue="Python.zscq" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.zhihu" />
-        <item index="1" class="java.lang.String" itemvalue="Python.s1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.wy163" />
-        <item index="3" class="java.lang.String" itemvalue="Python.163" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.zscq" />
+        <item index="1" class="java.lang.String" itemvalue="Python.zhihu" />
+        <item index="2" class="java.lang.String" itemvalue="Python.s1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.wy163" />
+        <item index="4" class="java.lang.String" itemvalue="Python.163" />
       </list>
     </recent_temporary>
   </component>
@@ -296,29 +307,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3382508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15991472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33766234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16151386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -337,11 +347,63 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/learn2/wy163.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#48#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn2/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6726">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6080">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn2/zhihu/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn2/zhihu/zhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#48#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/genericpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -398,24 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn2/s1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn2/wy163.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/configparser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -432,28 +476,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        <state relative-caret-position="6726">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/decoder.py">
+    <entry file="file://$PROJECT_DIR$/learn2/wy163.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#48#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn2/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn2/zhihu/zhihu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
+        <state relative-caret-position="758">
           <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding>
-            <element signature="e#48#63#0" expanded="true" />
+            <element signature="e#48#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/bb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/duotai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/f.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/gjhs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/ldjc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn1/mk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-init/hnh2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="120" column="4" lean-forward="false" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1543479590599" expanded="true" signature="274:298" ph="select * fro... brand_user" />
+            <marker date="1543479590599" expanded="true" signature="536:592" ph="update brand_user... " />
+            <marker date="1543479590599" expanded="true" signature="860:926" ph="select id, b... brand_area" />
+            <marker date="1543479590599" expanded="true" signature="1570:1760" ph="INSERT INTO `rcm_db`.`brand_user`... " />
+            <marker date="1543479590599" expanded="true" signature="2032:2186" ph="INSERT INTO `rcm_db`.`brand_user_index`... " />
+            <marker date="1543479590599" expanded="true" signature="3061:3111" ph="select brand... brand_type" />
+            <marker date="1543479590599" expanded="true" signature="4479:4787" ph="INSERT INTO `rcm_db`.`brand_area`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-init/zscq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1545803561202" expanded="true" signature="772:1315" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
+            <marker date="1545803561202" expanded="true" signature="772:1317" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
+            <marker date="1545803561202" expanded="true" signature="772:1336" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
+            <marker date="1545803561202" expanded="true" signature="772:1942" ph="INSERT INTO `hn_president`.`cq_trade_mark`... " />
           </folding>
         </state>
       </provider>
